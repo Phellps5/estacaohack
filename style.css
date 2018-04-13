@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: #333333;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 7px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(243, 243, 52);
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
